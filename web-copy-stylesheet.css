@@ -1,0 +1,60 @@
+body {
+    background-color: lightgray;
+}
+div.container {
+    border: 1px solid blue;
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.nav {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0 3px;
+    padding: 5px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav span:after {
+    content: ' |';
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.top a img {
+    vertical-align: middle;
+    max-height: 2%;
+    max-width: 2%;
+}
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 220px;
+    /*min-height: 600px;*/
+    font-size: 85%;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 1.5px solid #8a8e5f;
+    font-size: 75%;
+    padding: 10px;
+    text-align: left;
+    width: 150px;
+    margin-left: 25px;
+}
