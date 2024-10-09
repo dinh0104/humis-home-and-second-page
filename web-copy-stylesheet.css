@@ -42,7 +42,7 @@ div.container {
     max-width: 2%;
 }
 
-div.middle section.guts aside.nav {
+div.middle section.information aside.nav {
     float: left;
     width: 220px;
     /*min-height: 600px;*/
@@ -57,4 +57,61 @@ aside.nav a {
     text-align: left;
     width: 150px;
     margin-left: 25px;
+    background-color: #f3f3f4;
+}
+
+aside.nav div.humis-login a {
+    margin: 180px 50px 0 20px;
+    border-bottom-style: none;
+    /* ^same as border-bottom: unset;^ */
+}
+
+aside.nav div.humis-login a:hover {
+    background-color: unset;
+}
+
+aside.nav div.cis-login a {
+    border-bottom-style: none;
+}
+
+aside.nav div.cis-login a:hover {
+    background-color: unset;
+}
+
+aside.nav a:hover{
+    background-color: #bcbd9c;
+    text-decoration: underline;
+}
+
+div.middle section.information article.main {
+    float: right;
+    width: 500px;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+
+article.main h1 {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+div.content p {
+    margin-top: 0;
+    font-size: 80%;
+}
+
+.bottom a {
+    text-transform: lowercase;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #575f21;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
 }
