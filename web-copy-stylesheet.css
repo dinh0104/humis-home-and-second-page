@@ -12,7 +12,9 @@ div.container {
 
 .nav {
     text-align: right;
-    margin-top: 1rem;
+    background-color: #f3f3f4;
+    border-right: #60663e solid 1px;
+    /*margin-top: 1rem;*/
 }
 
 .nav a {
@@ -34,6 +36,10 @@ div.container {
 
 .nav span:last-of-type:after {
     content: "";
+}
+
+.top {
+    background-color: white;
 }
 
 .top a img {
@@ -58,6 +64,8 @@ aside.nav a {
     width: 150px;
     margin-left: 25px;
     background-color: #f3f3f4;
+    position: relative; top: 0; right: 10px;
+    z-index: 1;
 }
 
 aside.nav div.humis-login a {
@@ -83,24 +91,31 @@ aside.nav a:hover{
     text-decoration: underline;
 }
 
+
+
 div.middle section.information article.main {
     float: right;
-    width: 500px;
+    width: 530px;
     background-color: #fff;
     padding: 0.5rem;
 }
 
 
 article.main h1 {
-    color: red;
+    color: #c41230;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
 
+
 div.content p {
     margin-top: 0;
     font-size: 80%;
+}
+
+.bottom {
+    background-color: white;
 }
 
 .bottom a {
@@ -109,7 +124,7 @@ div.content p {
 }
 
 footer {
-    background-color: #575f21;
+    background-color: #60663e;
     color: white;
     font-size: 9px;
     text-align: center;
